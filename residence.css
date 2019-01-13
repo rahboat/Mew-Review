@@ -1,0 +1,109 @@
+html {
+    height: 100%;
+}
+
+header {
+    background-color: #008b8b;
+    display: block;
+    margin: 0px 0px 20px 0px;
+    border: 2px solid black;
+    padding: 10px 0px 0px 10px;
+    background: url(images/moreCatsFrontHouse.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
+}
+header h1 {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 250px;
+    /* opacity: 0.8; */
+    font-size: 500%;
+}
+
+header a {
+    text-decoration: none;
+    font-variant: small-caps;
+    color: #e9d31191;
+}
+
+header a:hover {
+    text-decoration: underline;
+    color: #b84a81;
+}
+
+/* header img {
+    height: auto;
+    width: 100%;
+    max-height: 70%;
+} */
+
+body {
+    background-color: #fad7de;
+}
+
+nav {
+    list-style-type: none;
+    text-align: center;
+    color: #a03950;
+    font-variant: small-caps;
+    padding: 0px 0px 0px 0px;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0px 100px 0px 100px;
+    font-size: 24px;
+    /* border-width: 2px black; */
+}
+
+.searchFunction {
+    text-align: center;
+    /* width: 100%; */
+    box-sizing: border-box;
+    height: auto;
+    padding: 1px 10px 0px 20px;
+    margin: 0px 0px 0px 0px;
+}
+
+.searchFunction h2 input {
+    width: 600px;
+    text-align: center;
+}
+
+.topRatedSide {
+    clear: both;
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    height: auto;
+    padding: 1px 10px 0px 20px;
+    border: 2px;
+}
+
+.newestSide {
+    float: right;
+    width: 50%;
+    box-sizing: border-box;
+    height: auto;
+    padding: 1px 20px 0px 10px;
+    border: 2px;
+}
+
+article img {
+    height: 150px;
+    width: 150px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.residenceName {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.residenceReview {
+    padding: 5px 0px 20px 0px;
+    margin: 0px 0px 0px 0px;
+}
